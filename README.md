@@ -25,11 +25,11 @@ The Python script dynamically creates a test image resembling a hut, allowing fo
 cuda-image-filter/
 ├── main.cu                   # CUDA implementation of Sobel filter
 ├── Makefile                  # For compiling and running
-├── generate\_input\_image.py   # Generates the hut image (RGB and grayscale)
-├── convert\_pgm\_to\_png.py     # Converts output.pgm to output.png
+├── generate_input_image.py   # Generates the hut image (RGB and grayscale)
+├── convert_pgm_to_png.py     # Converts output.pgm to output.png
 ├── inputs/
-│   ├── input\_rgb.png         # Colored input image
-│   ├── input\_gray.png        # Grayscale preview
+│   ├── input_rgb.png         # Colored input image
+│   ├── input_gray.png        # Grayscale preview
 │   ├── input.pgm             # Grayscale input for CUDA
 ├── outputs/
 │   ├── output.pgm            # Result from CUDA Sobel filter
